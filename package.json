@@ -1,0 +1,32 @@
+{
+  "name": "nodejs-zip-file",
+  "version": "1.0.0-preview",
+  "description": "Example of creating and reading zip files with Node.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sepehrsamavati/nodejs-zip-file.git"
+  },
+  "keywords": [
+    "nodejs",
+    "zip",
+    "compression"
+  ],
+  "author": "Sepehr Samavati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sepehrsamavati/nodejs-zip-file/issues"
+  },
+  "homepage": "https://github.com/sepehrsamavati/nodejs-zip-file#readme",
+  "devDependencies": {
+    "@types/archiver": "^6.0.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1"
+  }
+}
