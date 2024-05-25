@@ -40,5 +40,3 @@ export default function createEncrypted() {
     archive.finalize() // start process
         .catch(err => console.error(err));
 }
-
-createEncrypted()
